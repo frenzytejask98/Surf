@@ -5,7 +5,6 @@ from PyQt5 import QtWidgets
 from PyQt5 import QtWebEngineWidgets
 
 b = open("bookmarks","w+")
-b = open('bookmarks',"rb")
 try:
         bookmarks = pickle.loads(b.read())
 except EOFError:
